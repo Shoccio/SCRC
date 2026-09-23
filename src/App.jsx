@@ -39,6 +39,9 @@ function App() {
     <>
       <div>
         <h1>Skillshot City Trophy Calculator</h1>
+        <h5>Your rating after a game is adjusted by "(Number of trophies earned x 1000 - current rank score) / 50". 
+            To get up to 12,000 (the top rank), you must get 13 or more trophies in your matches. 
+            If you cannot reach the score, the tool outputs -1</h5>
         <form action={calculateRating}>
           <div>
             <label htmlFor="rating">Current Rating: </label>
